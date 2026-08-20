@@ -1,0 +1,38 @@
+{
+  "entities": {
+    "users": {
+      "fields": {
+        "displayName": { "type": "string" },
+        "email": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "createdAt": { "type": "timestamp" }
+      }
+    },
+    "topics": {
+      "fields": {
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "category": { "type": "string" },
+        "authorId": { "type": "string" },
+        "authorName": { "type": "string" },
+        "authorPhoto": { "type": "string" },
+        "upvotes": { "type": "number" },
+        "repliesCount": { "type": "number" },
+        "tags": { "type": "array" },
+        "createdAt": { "type": "timestamp" }
+      }
+    },
+    "replies": {
+      "fields": {
+        "topicId": { "type": "string" },
+        "content": { "type": "string" },
+        "authorId": { "type": "string" },
+        "authorName": { "type": "string" },
+        "authorPhoto": { "type": "string" },
+        "upvotes": { "type": "number" },
+        "isBestAnswer": { "type": "boolean" },
+        "createdAt": { "type": "timestamp" }
+      }
+    }
+  }
+}

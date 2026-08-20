@@ -1,0 +1,6 @@
+{
+  "name": "Guia MCU: Rumo ao Doomsday",
+  "description": "Guia interativo mobile para assistir e entender o Multiverso Marvel e preparar-se para o filme Avengers: Doomsday com Dr. Destino.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

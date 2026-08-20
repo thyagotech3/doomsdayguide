@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
+
+.sleek-dot-grid {
+  background-image: radial-gradient(#10b981 0.6px, transparent 0.6px);
+  background-size: 24px 24px;
+}
+
+.sleek-glow-emerald {
+  box-shadow: 0 0 40px rgba(16, 185, 129, 0.2);
+}
+
+.sleek-btn-gradient {
+  background: linear-gradient(135deg, #059669 0%, #10b981 50%, #34d399 100%);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
